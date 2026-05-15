@@ -1,6 +1,6 @@
 # THRD Protocol
 
-Teahouse of Recollected Dreams 管理改革大纲与行动指南。
+Teahouse of Recollected Dreams 管理改革大纲与行动指南。  
 本项目采用 `MkDocs + Material` 主题构建，实现“管理即代码”的自动化流程。
 
 ### 1. 项目骨架结构
@@ -22,7 +22,7 @@ THRD-Protocol/
     │   ├── incident-report.md  # 故障复盘：Post-mortem 的编写规范
     │   └── onboarding.md       # 成员准入：新成员如何通过考核并获得权限
     ├── skills/             # 【技能大纲】
-    │   ├── tech-stack.md       # 技术要求：?
+    │   ├── tech-stack.md       # 技术要求：Python 与 Vue 3 的“二选一”最小要求
     │   ├── docs-standard.md    # 文档标准：如何写出符合“工业级”要求的文档
     │   └── communication.md    # 沟通规范：异步协作下的文明与效率
     ├── ethics/             # 【伦理与边界】
@@ -45,5 +45,5 @@ mkdocs serve
 启动后访问：[http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 **版本规范**
-* **版本控制：**版本号直接在 `pyproject.toml` 中维护。
-* **变更记录：**所有管理制度的变动必须同步更新 `docs/changelog.md`
+* **版本控制：** 版本号直接在 `pyproject.toml` 中维护。
+* **变更记录：** 所有管理制度的变动必须同步更新 `docs/changelog.md`
