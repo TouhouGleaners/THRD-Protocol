@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thrd-protocol"
+version = "0.1.0"
+description = "Teahouse of Recollected Dreams 管理改革大纲与行动指南"
+readme = "README.md"
+authors = [
+    { name = "Miku_oso", email = "mikuoso@qq.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.6",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.2",
+]
