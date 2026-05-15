@@ -5,6 +5,17 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.4.0] - 2026-05-16 (UTC+8)
+
+### Added
+- 新增 `docs/governance/decision-making.md`：确立“Issue 讨论 -> PR 定稿”的异步决策流。
+- 确立 RFC (提案) 流程，明确“未合并即无效”的决策原则。
+
+### Changed
+- 修改 `mkdocs.yml`：开启 `admonition` 及其相关扩展，支持 `!!!` 提示框语法。
+- 修改 `README.md` 项目结构：新增 `docs/proposals/` 目录。
+- `pyproject.toml`: 版本号升级至 `0.4.0`。 
+
 ## [0.3.0] - 2026-05-15 (UTC+8)
 
 ### Added
