@@ -6,29 +6,30 @@ Teahouse of Recollected Dreams 管理改革大纲与行动指南。
 ### 1. 项目骨架结构
 ```
 THRD-Protocol/
-├── pyproject.toml          # 现代化项目配置，定义依赖与版本
-├── mkdocs.yml              # MkDocs 核心配置（含插件、时区与导航）
-├── README.md               # 仓库引导手册
-├── .gitignore              # 忽略 site/ 及 Python 环境
-└── docs/                   # 文档源码（MkDocs 扫描目录）
-    ├── index.md            # 首页：管理改革的愿景、使命与 THRD 的核心价值观
-    ├── changelog.md        # 组织管理制度的变更日志
+├── pyproject.toml          # 项目配置，定义依赖与版本
+├── mkdocs.yml              # MkDocs 配置
+├── README.md               # 仓库维护与本地开发引导
+├── .gitignore              # 忽略编译产物与虚拟环境
+└── docs/                   # 文档源码目录
+    ├── index.md            # 首页：茶馆愿景与管理改革初衷
+    ├── changelog.md        # 变更记录（北京时间 CST）
     ├── governance/         # 【治理逻辑】
-    │   ├── maintainer-role.md  # 管理层定义：是 Maintainer 而非 Manager
-    │   ├── decision-making.md  # 决策流：如何通过 RFC 提出改革
-    │   └── access-control.md   # 权限矩阵：服务器、仓库、API Credits 的分配
-    ├── action-guide/       # 【行动指南 (SOP)】
-    │   ├── dev-workflow.md     # 开发流：从 Issue 到 PR 的管理标准
-    │   ├── incident-report.md  # 故障复盘：Post-mortem 的编写规范
-    │   └── onboarding.md       # 成员准入：新成员如何通过考核并获得权限
+    │   ├── maintainer-role.md  # 角色定义：三位一体维护者架构
+    │   ├── decision-making.md  # 决策流：Issue-PR 异步协作流程
+    │   └── access-control.md   # 权限矩阵：技能挂钩的资源分配
+    ├── proposals/          # 【提案库：RFC 存档】
+    ├── action-guide/       # 【行动指南 SOP】
+    │   ├── dev-workflow.md     # 开发流：代码维护与提交标准
+    │   ├── incident-report.md  # 故障复盘：事故报告编写规范
+    │   └── onboarding.md       # 入馆指南：维护者准入考核
     ├── skills/             # 【技能大纲】
-    │   ├── tech-stack.md       # 技术要求：Python 与 Vue 3 的“二选一”最小要求
-    │   ├── docs-standard.md    # 文档标准：如何写出符合“工业级”要求的文档
+    │   ├── tech-stack.md       # 技术栈：Python/Vue 3 二选一准入要求
+    │   ├── docs-standard.md    # 文档标准：Markdown 与去富文本化规范
     │   └── communication.md    # 沟通规范：异步协作下的文明与效率
     ├── ethics/             # 【伦理与边界】
-    │   ├── data-privacy.md     # 归档数据的隐私边界（如弹幕中的用户信息）
-    │   └── thrd-spirit.md      # THRD 精神：非营利与数字保存的初心
-    └── assets/             # 静态资源（Logo、架构图等）
+    │   ├── data-privacy.md     # 数据隐私：归档数据的处理底线
+    │   └── thrd-spirit.md      # 茶馆精神：数字保存的初心
+    └── assets/             # 静态资源目录
 ```
 
 ### 2. 快速开始

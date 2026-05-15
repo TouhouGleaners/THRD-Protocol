@@ -22,6 +22,11 @@ theme:
     - navigation.sections
     - content.code.copy
 
+markdown_extensions:
+  - admonition            # 支持提示框
+  - pymdownx.details      # 支持可展开的细节块
+  - pymdownx.superfences  # 支持在提示框里嵌套代码块
+
 plugins:
   - search
   - git-revision-date-localized:
