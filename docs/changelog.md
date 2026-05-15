@@ -5,6 +5,15 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.5.0] - 2026-05-16 (UTC+8)
+
+### Added
+- 新增 `docs/governance/access-control.md`：确立基于技能等级（L1-L3）的权限矩阵。
+- 引入“休眠与复苏”机制：以 180 天为周期进行安全保护，支持一键恢复权限。
+
+### Changed
+- `pyproject.toml`: 版本号升级至 `0.5.0`。
+
 ## [0.4.0] - 2026-05-16 (UTC+8)
 
 ### Added

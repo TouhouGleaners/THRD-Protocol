@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "thrd-protocol"
-version = "0.4.0"
+version = "0.5.0"
 description = "Teahouse of Recollected Dreams 管理改革大纲与行动指南"
 readme = "README.md"
 authors = [
