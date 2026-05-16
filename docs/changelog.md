@@ -5,6 +5,14 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.8.0] - 2026-05-17 (UTC+8)
+
+### Changed
+- **重构首页 (`index.md`)**：将原有的空泛愿景替换为实务性的“管理改革提案”。
+
+### Changed
+- `pyproject.toml`: 版本号升级至 `0.8.0`。
+
 ## [0.7.0] - 2026-05-17 (UTC+8)
 
 ### Added
