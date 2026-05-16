@@ -5,6 +5,14 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.7.0] - 2026-05-17 (UTC+8)
+
+### Added
+- 新增 `docs/skills/communication.md`：建立组织级沟通规范与异步协作共识。
+
+### Changed
+- `pyproject.toml`: 版本号升级至 `0.7.0`。
+
 ## [0.6.0] - 2026-05-17 (UTC+8)
 
 ### Added
