@@ -5,12 +5,19 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.9.0] - 2026-05-17 (UTC+8)
+
+### Changed
+- **重构角色定义 (`maintainer-role.md`)**：全面对接“管理改革提案”逻辑。
+- 将维护者架构由等级制转为**职能制**，定义了“运营型 (Ops)”、“技术型 (Tech)”与“复合型 (Composite)”三类核心角色。
+- 引入“双向演进”机制，明确了运营与技术路径之间的互补性与流动性。
+- 细化了各类角色的职责范围、定位及所需的协作工具（网页端 vs 客户端）。
+- `pyproject.toml`: 版本号升级至 `0.9.0`。
+
 ## [0.8.0] - 2026-05-17 (UTC+8)
 
 ### Changed
 - **重构首页 (`index.md`)**：将原有的空泛愿景替换为实务性的“管理改革提案”。
-
-### Changed
 - `pyproject.toml`: 版本号升级至 `0.8.0`。
 
 ## [0.7.0] - 2026-05-17 (UTC+8)
