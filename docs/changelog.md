@@ -5,6 +5,14 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.12.0] - 2026-05-18 (UTC+8)
+
+### Added
+- 新增 `docs/action-guide/onboarding.md`：建立基于 GitHub 网页版的维护者入馆引导。
+
+### Changed
+- `pyproject.toml`: 版本号升级至 `0.12.0`。
+
 ## [0.11.0] - 2026-05-17 (UTC+8)
 
 ### Changed
