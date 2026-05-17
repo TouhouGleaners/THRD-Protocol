@@ -5,6 +5,12 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.11.0] - 2026-05-17 (UTC+8)
+
+### Changed
+- **重构技能大纲 (`tech-stack.md`)**：优化文档结构以适配“双轨制”职能架构，调整部分表述。
+- `pyproject.toml`: 版本号升级至 `0.11.0`。
+
 ## [0.10.0] - 2026-05-17 (UTC+8)
 
 ### Added
