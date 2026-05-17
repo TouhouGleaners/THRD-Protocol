@@ -5,6 +5,12 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.13.0] - 2024-05-22 (CST)
+
+### Changed
+- **重构权限矩阵 (`access-control.md`)**：将原有的等级制（L 序列）权限逻辑重构为基于职能路径（运营/技术/核心）的授权体系。
+- `pyproject.toml`: 版本号升级至 `0.13.0`。
+
 ## [0.12.0] - 2026-05-18 (UTC+8)
 
 ### Added
