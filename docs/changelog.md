@@ -5,7 +5,14 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
-## [0.13.0] - 2024-05-22 (CST)
+## [0.14.0] - 2026-05-18 (UTC+8)
+
+### Changed
+- **重构决策流方案 (`decision-making.md`)**：使之与运营/技术双轨职能架构对齐。
+- 完善提案库（Proposals）的分类与 RFC 流程说明。
+- `pyproject.toml`: 版本号升级至 `0.14.0`。
+
+## [0.13.0] - 2026-05-18 (UTC+8)
 
 ### Changed
 - **重构权限矩阵 (`access-control.md`)**：将原有的等级制（L 序列）权限逻辑重构为基于职能路径（运营/技术/核心）的授权体系。
