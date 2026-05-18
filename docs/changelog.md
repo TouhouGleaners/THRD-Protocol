@@ -5,6 +5,17 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.16.0] - 2026-05-18 (UTC+8)
+
+### Added
+- 新增 `docs/action-guide/dev-workflow.md`: 建立完整的开发与维护工作流规范。
+
+### Changes
+- **重构决策流裁决机制 (`decision-making.md`)**：
+    - 确立“审计权与裁决规范”：明确核心维护者在执行合并时的质量审计职能。
+    - 在 `dev-workflow` 与 `decision-making` 中互引，明确区分组织级决策与日常维护任务。
+- `pyproject.toml`: 版本号升级至 `0.16.0`。
+
 ## [0.15.0] - 2026-05-18 (UTC+8)
 
 ### Added
