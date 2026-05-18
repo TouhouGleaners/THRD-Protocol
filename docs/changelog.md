@@ -5,6 +5,20 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.18.0] - 2026-05-19 (UTC+8)
+
+### Changed
+- **重构门户首页 (`index.md`)**：将“管理改革提案”与“协作指南”整合为全新的门户界面，引入卡片式网格导航。
+- **优化全局配置 (`mkdocs.yml`)**：
+    - 集成 Material 工业级图标 (Emoji/Icons) 解析。
+    - 开启网格布局 (Grid) 与 HTML 混排支持。
+- **完善决策裁决逻辑**：修改 `decision-making.md` 紧急例外情况应对办法并区分协议修正（PR 驱动）与独立提案（Issue 驱动）两条路径。
+- 确立“Issue 闭环管理”：独立提案不再产生物理文件，通过 Issue 首楼更新与裁决回复实现定稿。
+- `pyproject.toml`: 版本号升级至 `0.18.0`。
+
+### Removed
+- 撤销物理提案目录 (`docs/proposals/`) 及故障复盘制度。
+
 ## [0.17.0] - 2026-05-18 (UTC+8)
 
 ### Added
