@@ -24,8 +24,13 @@ theme:
 
 markdown_extensions:
   - admonition            # 支持提示框
+  - md_in_html            # 允许在 HTML 里写 Markdown
+  - attr_list             # 支持在 Markdown 元素上添加属性
   - pymdownx.details      # 支持可展开的细节块
   - pymdownx.superfences  # 支持在提示框里嵌套代码块
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -43,7 +48,6 @@ nav:
   - 行动指南:
     - 成员准入: action-guide/onboarding.md
     - 开发工作流: action-guide/dev-workflow.md
-    - 故障复盘: action-guide/incident-report.md
     - 标签系统: action-guide/labels.md
   - 技能大纲:
     - 技术栈: skills/tech-stack.md

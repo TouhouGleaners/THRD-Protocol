@@ -17,10 +17,9 @@ THRD-Protocol/
     │   ├── maintainer-role.md  # 角色定义：三位一体维护者架构
     │   ├── decision-making.md  # 决策流：Issue-PR 异步协作流程
     │   └── access-control.md   # 权限矩阵：技能挂钩的资源分配
-    ├── proposals/          # 【提案库：RFC 存档】
     ├── action-guide/       # 【行动指南 SOP】
     │   ├── dev-workflow.md     # 开发流：代码维护与提交标准
-    │   ├── incident-report.md  # 故障复盘：事故报告编写规范
+    │   ├── labels.md           # Github标签：任务流转的“语言”
     │   └── onboarding.md       # 入馆指南：维护者准入考核
     ├── skills/             # 【技能大纲】
     │   ├── tech-stack.md       # 技术栈：Python/Vue 3 二选一准入要求
