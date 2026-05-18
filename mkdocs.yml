@@ -41,9 +41,10 @@ nav:
     - 决策流程: governance/decision-making.md
     - 权限管理: governance/access-control.md
   - 行动指南:
+    - 成员准入: action-guide/onboarding.md
     - 开发工作流: action-guide/dev-workflow.md
     - 故障复盘: action-guide/incident-report.md
-    - 成员准入: action-guide/onboarding.md
+    - 标签系统: action-guide/labels.md
   - 技能大纲:
     - 技术栈: skills/tech-stack.md
     - 文档标准: skills/docs-standard.md

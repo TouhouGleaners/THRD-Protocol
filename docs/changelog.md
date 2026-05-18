@@ -5,6 +5,16 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.17.0] - 2026-05-18 (UTC+8)
+
+### Added
+- 新增 `docs/action-guide/labels.md`：建立全量标准化 GitHub 标签系统参考手册。
+
+### Changed
+- **集成标签至工作流**：在 `docs/action-guide/dev-workflow.md` 中增加“标签应用参考”章节。
+- **完善导航体系 (`mkdocs.yml`)**：将标签系统正式纳入“行动指南”导航板块。
+- `pyproject.toml`: 版本号升级至 `0.17.0`。
+
 ## [0.16.0] - 2026-05-18 (UTC+8)
 
 ### Added
