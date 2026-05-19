@@ -2,6 +2,7 @@ site_name: THRD Protocol
 site_description: Teahouse of Recollected Dreams 管理改革大纲与行动指南
 theme:
   name: material
+  logo: assets/logo.svg
   custom_dir: overrides
   palette:
     # 浅色模式
