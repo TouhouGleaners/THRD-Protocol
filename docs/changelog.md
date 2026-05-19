@@ -5,6 +5,21 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [1.0.0-alpha.1] - 2026-05-20 (UTC+8)
+
+### Added
+- **发布 THRD Protocol 首个公开预览版 (Alpha 1)**。
+- 新增 `docs/about.md`：记录本协议的起源历史。.
+- **新增全局样式 (`overrides/partials/copyright.html`)**：定制版权信息，明确版权归属。
+
+### Changed
+- **重构引导手册 (`README.md`)**：同步最新的 A-Z 目录树，将“三条协作红线”前置。
+- **优化全局配置 (`mkdocs.yml`)**：
+    - 调整“伦理与边界”板块顺序，优先展示《THRD 精神共识》。
+    - 启用 `navigation.footer` 扩展，支持底部的“上一页/下一页”双向导航。
+    - 集成自定义 copyright 组件，替换默认版权信息。
+- `pyproject.toml`: 版本号正式升级至 `1.0.0-alpha.1`。
+
 ## [0.19.0] - 2026-05-20 (UTC+8)
 
 ### Added
@@ -16,6 +31,7 @@
 - **统一组织角色称谓**：
     - 将 `maintainer-role.md` 与 `access-control.md` 中的角色名称统一规范为“运营维护者”、“技术维护者”和“核心维护者”。
     - 在权限矩阵下方的说明中补齐了 `Dormant`（休眠）与 `Emeritus`（荣誉成员）的授权细节，完成逻辑对齐。
+- `pyproject.toml`: 版本号升级至 `0.19.0`。
 
 ## [0.18.0] - 2026-05-19 (UTC+8)
 

@@ -3,47 +3,75 @@
 Teahouse of Recollected Dreams 管理改革大纲与行动指南。  
 本项目采用 `MkDocs + Material` 主题构建，实现“管理即代码”的自动化流程。
 
-### 1. 项目骨架结构
-```
+我们通过将组织规范文件化、流程工具化，彻底消除单点故障风险，确保那些珍贵的东方资源得以长久安全地留存。
+
+---
+
+### 1. 协议目录结构 (A-Z)
+```plaintext
 THRD-Protocol/
-├── pyproject.toml          # 项目配置，定义依赖与版本
-├── mkdocs.yml              # MkDocs 配置
-├── README.md               # 仓库维护与本地开发引导
-├── .gitignore              # 忽略编译产物与虚拟环境
-└── docs/                   # 文档源码目录
-    ├── index.md            # 首页：茶馆愿景与管理改革初衷
-    ├── changelog.md        # 变更记录（北京时间 CST）
-    ├── governance/         # 【治理逻辑】
-    │   ├── maintainer-role.md  # 角色定义：三位一体维护者架构
-    │   ├── decision-making.md  # 决策流：Issue-PR 异步协作流程
-    │   └── access-control.md   # 权限矩阵：技能挂钩的资源分配
+├── .gitignore              # 忽略本地编译产物与虚拟环境
+├── README.md               # 仓库引导手册（本文件）
+├── mkdocs.yml              # MkDocs 核心配置文件（含提示框与图标扩展）
+├── pyproject.toml          # 现代化项目元数据与依赖配置
+└── docs/                   # 文档源码目录（MkDocs 扫描目录）
     ├── action-guide/       # 【行动指南 SOP】
-    │   ├── dev-workflow.md     # 开发流：代码维护与提交标准
-    │   ├── labels.md           # Github标签：任务流转的“语言”
-    │   └── onboarding.md       # 入馆指南：维护者准入考核
-    ├── skills/             # 【技能大纲】
-    │   ├── tech-stack.md       # 技术栈：Python/Vue 3 二选一准入要求
-    │   ├── docs-standard.md    # 文档标准：Markdown 与去富文本化规范
-    │   └── communication.md    # 沟通规范：异步协作下的文明与效率
+    │   ├── dev-workflow.md     # 开发工作流：从 Issue 到 PR 的协作动作规范
+    │   ├── labels.md           # 标签系统：任务流转与状态控制的标准化语言
+    │   └── onboarding.md       # 入馆指南：维护者网页端 PR 准入实操挑战
+    ├── assets/             # 静态资源目录（Logo、架构图等）
     ├── ethics/             # 【伦理与边界】
-    │   ├── data-privacy.md     # 数据隐私：归档数据的处理底线
-    │   └── thrd-spirit.md      # 茶馆精神：数字保存的初心
-    └── assets/             # 静态资源目录
+    │   ├── data-privacy.md     # 数据隐私：归档数据的处理底线与内容净化标准
+    │   └── thrd-spirit.md      # 茶馆精神：对抗数字遗忘的维护者共识公约
+    ├── governance/         # 【治理逻辑】
+    │   ├── access-control.md   # 权限矩阵：技能挂钩的资源分配与休眠复苏机制
+    │   ├── decision-making.md  # 决策流程：Issue-PR 异步决策与裁决规范
+    │   └── maintainer-role.md  # 角色定义：运营/技术/核心三轨维护者架构
+    ├── skills/             # 【技能大纲】
+    │   ├── communication.md    # 沟通规范：GitHub 与即时通讯工具的流转红线
+    │   ├── docs-standard.md    # 文档标准：去富文本化的 Markdown 排版礼仪
+    │   └── tech-stack.md       # 技术要求：Python/Vue 3 二选一最小准入标准
+    ├── about.md            # 关于协议：历史致谢与起草说明
+    ├── changelog.md        # 变更记录（北京时间 CST）
+    └── index.md            # 首页：管理改革提案（白皮书）与全景导航
 ```
 
-### 2. 快速开始
+---
 
-**本地开发**
-本项目使用 Python 3.12+ 环境：
+## 2. 核心协作红线
+
+在参与茶馆维护之前，请全体维护者（Maintainer）牢记以下三条硬性红线：
+
+1.  **严禁直接推送主分支**：除了紧急状态下的核心维护者外，任何改动必须通过创建独立分支并提交 **Pull Request (PR)**，经评审通过后，由核心维护者执行 **Squash and Merge** 归档。
+2.  **独立提案 Issue 闭环**：临时活动（如周年庆）、新项目立项等非制度性事务统一通过新建标签为 `Type: Proposal` 的 **GitHub Issue** 进行讨论、定稿与归档。
+3.  **未记录即未达成**：任何口头或群聊达成的共识，若未最终转化为 Protocol 仓库中的 PR 提交或 Issue 总结，一律不具备官方效力。
+
+---
+
+## 3. 本地预览开发
+
+本项目使用 Python 构建。在修改文档并提交 PR 之前，请务必在本地预览渲染效果。
+
+### **步骤 1：安装依赖**
+推荐在 Python 虚拟环境（venv）下进行安装：
+```bash
+# 克隆仓库
+git clone https://github.com/TouhouGleaners/THRD-Protocol.git
+cd THRD-Protocol
+
+# 安装本地包及全部依赖
+pip install -e .
 ```
-# 安装依赖 (建议在 venv 下执行)
-pip install .
 
-# 启动本地实时预览服务器
-mkdocs serve
+### **步骤 2：启动预览服务器**
+```bash
+mkdocs serve --livereload
 ```
-启动后访问：[http://127.0.0.1:8000](http://127.0.0.1:8000)
+启动后访问本地回环地址：[http://127.0.0.1:8000](http://127.0.0.1:8000) 进行实时调试。
 
-**版本规范**
-* **版本控制：** 版本号直接在 `pyproject.toml` 中维护。
-* **变更记录：** 所有管理制度的变动必须同步更新 `docs/changelog.md`
+---
+
+## 4. 自动化与基础设施
+
+- **分支保护规则**：本仓库 `main` 分支已开启 Ruleset 保护，未通过 Review 的 PR 将被系统自动拒绝。
+- **权限流转**：权限分配与 [权限矩阵](./docs/governance/access-control.md) 挂钩，通过 Git 历史记录进行公开审计。

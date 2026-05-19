@@ -2,6 +2,7 @@ site_name: THRD Protocol
 site_description: Teahouse of Recollected Dreams 管理改革大纲与行动指南
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # 浅色模式
     - media: "(prefers-color-scheme: light)"
@@ -20,6 +21,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.footer
     - content.code.copy
 
 markdown_extensions:
@@ -54,6 +56,7 @@ nav:
     - 文档标准: skills/docs-standard.md
     - 沟通规范: skills/communication.md
   - 伦理与边界:
-    - 数据隐私: ethics/data-privacy.md
     - THRD 精神: ethics/thrd-spirit.md
+    - 数据隐私: ethics/data-privacy.md
+  - 关于: about.md
   - 变更记录: changelog.md
