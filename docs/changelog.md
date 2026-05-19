@@ -5,6 +5,18 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [0.19.0] - 2026-05-20 (UTC+8)
+
+### Added
+- **确立维护者全生命周期管理 (`maintainer-role.md`)**：
+    - 新增“主动退出机制”，确立 `Emeritus`（荣誉成员）的流转路径。
+    - 新增“两步走强制除名机制”：确立 24 小时内紧急挂起与 7 天内核心维护者表决裁决制衡。
+
+### Changed
+- **统一组织角色称谓**：
+    - 将 `maintainer-role.md` 与 `access-control.md` 中的角色名称统一规范为“运营维护者”、“技术维护者”和“核心维护者”。
+    - 在权限矩阵下方的说明中补齐了 `Dormant`（休眠）与 `Emeritus`（荣誉成员）的授权细节，完成逻辑对齐。
+
 ## [0.18.0] - 2026-05-19 (UTC+8)
 
 ### Changed
