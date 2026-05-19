@@ -5,6 +5,11 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
+## [Unreleased] - 2026-05-20 (UTC+8)
+
+### Added
+- 添加 `docs/assets/` 目录：存放全局静态资源。
+
 ## [1.0.0-alpha.1] - 2026-05-20 (UTC+8)
 
 ### Added
