@@ -81,6 +81,6 @@
 | 正常维护者 | ✔ | ✔ | 入职 / 恢复 | 主动退出 / 休眠 / 除名 |
 | 观察期 (Probation) | ✘ | ✔ | 裁决除名未通过 / 超时兜底到期 | 14 天期满多数表决 |
 | 休眠 (Dormant) | ✘ | ✔ | 180 天无协作轨迹 | 提交 PR / Issue 留言 |
-| 即时除名 (Immediate Removal) | ✘ | ✘ | 7-A 生效（需确认主观恶意） | 14 天内申诉复核通过可恢复 |
-| 永久除名 (Permanent Removal) | ✘ | ✘ | 7-B 裁决通过 | 不可恢复 |
+| [即时除名 (Immediate Removal)](./maintainer-role.md#7-a-即时除名-immediate-removal) | ✘ | ✘ | 7-A 生效（需确认主观恶意） | 14 天内申诉复核通过可恢复 |
+| [永久除名 (Permanent Removal)](./maintainer-role.md#7-b-裁决除名-removal-by-ruling) | ✘ | ✘ | 7-B 裁决通过 | 不可恢复 |
 | 荣誉成员 (Emeritus) | ✘ | ✔（历史署名） | 主动退出 | — |
