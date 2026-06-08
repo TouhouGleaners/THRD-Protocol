@@ -1444,12 +1444,43 @@
 <h3 id="_2">第四步：裁决（生效阶段）</h3>
 <p>由核心维护者对 PR 进行<strong>最终裁决</strong>：</p>
 <ul>
-<li><strong>批准</strong>：点击 Squash and Merge。方案正式转化为茶馆的执行指令或历史档案。</li>
-<li><strong>否决</strong>：核心维护者有权拒绝合并不符合标准的提案，但必须给出基于本 Protocol 的书面解释。当核心维护者人数超过 3 人时，重大否决需经核心维护者内部多数通过。</li>
+<li><strong>批准</strong>：任一核心维护者可直接合并。方案正式转化为茶馆的执行指令或历史档案。</li>
+<li><strong>拒绝</strong>：核心维护者可拒绝合并，PR 保持 open 状态，由拒绝该 PR 的核心维护者打上 <code>Status: Needs Investigation</code> 标签，并在 PR 评论中给出基于本 Protocol 的书面解释。</li>
+<li><strong>异议</strong>：其他维护者可在拒绝理由发布后 <strong>7 天内</strong>于 PR 评论中表态反对拒绝，维护者人数以拒绝发生时的名单（参见 <a href="../access-control/">权限矩阵</a>）为准。若反对票超过全体维护者（含运营与技术维护者）的简单多数（即超过半数），由任一支持异议的核心维护者执行强制合并。若 7 天内未形成简单多数，拒绝维持。双重身份的维护者只计一票。</li>
 </ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">动作</th>
+<th style="text-align: left;">执行者</th>
+<th style="text-align: left;">时限</th>
+<th style="text-align: left;">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">批准</td>
+<td style="text-align: left;">任一核心维护者</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">合并生效</td>
+</tr>
+<tr>
+<td style="text-align: left;">拒绝</td>
+<td style="text-align: left;">任一核心维护者</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">PR 保持 open，打标签，书面解释</td>
+</tr>
+<tr>
+<td style="text-align: left;">异议</td>
+<td style="text-align: left;">其他维护者</td>
+<td style="text-align: left;">7 天</td>
+<td style="text-align: left;">多数反对→强制合并；否则拒绝维持</td>
+</tr>
+</tbody>
+</table>
 <div class="admonition info">
 <p class="admonition-title">关于审计权</p>
-<p>核心维护者的合并权本质上是质量与安全审计。核心维护者应尽量尊重集体共识，仅在提案严重偏离技术标准、法律底线或组织精神时行使否决权，并需在 PR 评论中详细说明理由。</p>
+<p>核心维护者的合并权本质上是质量与安全审计。核心维护者应尽量尊重集体共识，仅在提案严重偏离技术标准、法律底线或组织精神时行使拒绝权，并需在 PR 评论中详细说明理由。</p>
 </div>
 <hr />
 <h2 id="4-pr">4. 为什么必须走 PR 流程？</h2>
@@ -1488,7 +1519,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2026年5月19日 02:38:54 CST">2026年5月19日 02:38:54</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2026年6月8日 23:54:21 CST">2026年6月8日 23:54:21</span>
   </span>
 
     
