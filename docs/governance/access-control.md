@@ -67,6 +67,6 @@
 | 状态 | 写权限 | 只读权限 | 触发条件 | 退出方式 |
 | :--- | :--- | :--- | :--- | :--- |
 | 正常维护者 | ✔ | ✔ | 入职 / 恢复 | 主动退出 / 休眠 / 除名 |
-| 休眠 (Dormant) | ✘ | ✔ | 180 天无协作轨迹 | 提交 PR / Issue 留言 |
-| [除名 (Removal)](./lifecycle.md#3-强制除名-removal-for-cause) | ✘ | ✘ | 裁决表决通过 | 7 天内申诉复核通过可恢复 |
+| [休眠 (Dormant)](./lifecycle.md#2-dormancy) | ✘ | ✔ | 180 天无协作轨迹 | 提交 PR / Issue 留言 |
+| [除名 (Removal)](./lifecycle.md#3-removal-for-cause) | ✘ | ✘ | 裁决表决通过 | 7 天内申诉复核通过可恢复 |
 | 荣誉成员 (Emeritus) | ✘ | ✔（历史署名） | 主动退出 | — |
