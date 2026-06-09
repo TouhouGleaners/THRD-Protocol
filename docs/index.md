@@ -29,6 +29,7 @@
     - [维护者角色定义](./governance/maintainer-role.md)
     - [决策流与提案管理](./governance/decision-making.md)
     - [权限矩阵](./governance/access-control.md)
+    - [维护者生命周期](./governance/lifecycle.md)
 
 -   :material-hammer-wrench:{ .lg .middle } __行动指南__
 
