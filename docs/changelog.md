@@ -5,21 +5,22 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
-## [Unreleased] - 2026-05-20 (UTC+8)
+## [Unreleased] - 2026-06-09 (UTC+8)
 
 ### Added
-- 添加 `docs/assets/` 目录：存放全局静态资源。
+- 新增 `docs/assets/` 目录：存放全局静态资源。
+- 新增 `governance/lifecycle.md`：维护者生命周期文档，涵盖退出、休眠与除名机制。
 
 ### Changed
-- **重构强制除名机制 (`maintainer-role.md`)**：将原”两步走”流程简化为统一流程——降权与归档（24h）→ 裁决表决（7d）→ 除名或恢复 → 申诉（7d），并拆分为独立章节。
-- **权限矩阵简化 (`access-control.md`)**：状态-权限映射表移除观察期、即时除名等中间状态，合并为统一的除名 (Removal) 状态。
-- **更新异议部分 (`decision-making`)**：更新决策治理文档，定义”批准、拒绝和异议”的流程，包括角色分工、时间线以及多数异议覆写规则。
-- **治理文档结构重组**：
-    - 新增 `governance/lifecycle.md`：将退出、休眠、除名从 `maintainer-role.md` 和 `access-control.md` 中移出，合并为独立的维护者生命周期文档。
-    - `maintainer-role.md`：仅保留角色定义与晋升机制（1-5 节）。
-    - `access-control.md`：移除休眠保护机制章节，仅保留权限分配与授权矩阵。
-    - `decision-making.md`：移除”为什么必须走 PR 流程”章节，仅保留操作流程。
-    - `index.md` 与 `mkdocs.yml`：新增生命周期导航条目。
+- **治理文档结构重组**：将原本混杂在各文档中的内容按主题拆分为独立文档，每篇文档聚焦单一主题。
+    - `maintainer-role.md`：仅保留角色定义与晋升机制，退出/除名移至 `lifecycle.md`。
+    - `access-control.md`：移除休眠保护机制，仅保留权限分配与授权矩阵。
+    - `decision-making.md`：将”为什么用 PR”作为理念说明移至文档开头，裁决流程简化为”批准 / 拒绝 / 异议”三步。
+    - `index.md`：新增生命周期导航条目，移除未实现的”快速上手清单”引用，弱化改革提案中的个人色彩表述。
+    - `README.md`：目录结构新增 `lifecycle.md`。
+- **裁决机制简化**：将原”否决 + 否决覆写”机制简化为”拒绝 + 异议”流程——任一核心维护者可直接合并或拒绝（需书面解释并打标签），其他维护者可在 7 天内表态反对拒绝，超过全体维护者半数则强制合并。
+- **除名机制简化**：将原”两步走”流程简化为统一的三步流程——降权与归档（24h）→ 裁决表决（7d）→ 除名或恢复 → 申诉（7d）。
+- **权限矩阵简化**：状态-权限映射表移除观察期、即时除名等中间状态，合并为统一的除名 (Removal) 状态。
 
 ## [1.0.0-alpha.1] - 2026-05-20 (UTC+8)
 

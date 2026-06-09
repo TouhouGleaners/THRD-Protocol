@@ -24,8 +24,9 @@ THRD-Protocol/
     │   ├── data-privacy.md     # 数据隐私：归档数据的处理底线与内容净化标准
     │   └── thrd-spirit.md      # 茶馆精神：对抗数字遗忘的维护者共识公约
     ├── governance/         # 【治理逻辑】
-    │   ├── access-control.md   # 权限矩阵：技能挂钩的资源分配与休眠复苏机制
+    │   ├── access-control.md   # 权限矩阵：技能挂钩的资源分配与授权标准
     │   ├── decision-making.md  # 决策流程：Issue-PR 异步决策与裁决规范
+    │   ├── lifecycle.md        # 维护者生命周期：退出、休眠与除名机制
     │   └── maintainer-role.md  # 角色定义：运营/技术/核心三轨维护者架构
     ├── skills/             # 【技能大纲】
     │   ├── communication.md    # 沟通规范：GitHub 与即时通讯工具的流转红线
