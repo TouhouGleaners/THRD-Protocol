@@ -1042,7 +1042,7 @@
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 历史与致谢
+        1. 起因
       
     </span>
   </a>
@@ -1050,10 +1050,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#2-git" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. 演进说明
+        2. 为什么用 Git 管理组织
       
     </span>
   </a>
@@ -1064,7 +1064,79 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 开源与声明
+        3. 为什么要求维护者懂点技术
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 写作过程中的犹豫
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 关于编写者
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 期望
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 致谢
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 致谢">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v100" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.0.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 开源与声明
       
     </span>
   </a>
@@ -1136,7 +1208,7 @@
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 历史与致谢
+        1. 起因
       
     </span>
   </a>
@@ -1144,10 +1216,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#2-git" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. 演进说明
+        2. 为什么用 Git 管理组织
       
     </span>
   </a>
@@ -1158,7 +1230,79 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 开源与声明
+        3. 为什么要求维护者懂点技术
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 写作过程中的犹豫
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 关于编写者
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 期望
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 致谢
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 致谢">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v100" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.0.0
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 开源与声明
       
     </span>
   </a>
@@ -1183,20 +1327,53 @@
 
 
 <h1 id="thrd-protocol">关于 THRD Protocol</h1>
-<p><strong>THRD Protocol</strong>（拾遗梦茶馆管理协议）是“拾遗梦茶馆”实现工业化管理转型的核心基石。</p>
+<p><strong>THRD Protocol</strong>（拾遗梦茶馆管理协议）是”拾遗梦茶馆”实现工业化管理转型的核心基石。</p>
 <hr />
-<h2 id="1">1. 历史与致谢</h2>
-<p>本协议的初版（v1.0.0-alpha.1 及此前所有 0.x 版本）由 <strong>Miku_oso</strong> 独立完成全案构思、文档起草与架构设计。</p>
+<blockquote>
+<p>以下内容以"我"（Miku_oso）的视角撰写。这是整份协议中为数不多以个人视角书写的部分，我想在这里袒露一些想法。</p>
+</blockquote>
+<hr />
+<h2 id="1">1. 起因</h2>
+<p>大概在 2025 年 10 月，我开始觉得茶馆“等活来找我们”的运营模式不太健康——只要没人找我们，我们就没事做。但当时并没有感到特别紧迫，毕竟还没有出现过断供的问题。</p>
+<p>直到断供真的发生了。</p>
+<p>这件事让我意识到，茶馆长期依赖少数人来维持运转，一旦这些人不在，整个组织就会停摆。这不是一个可持续的模式。</p>
+<hr />
+<h2 id="2-git">2. 为什么用 Git 管理组织</h2>
+<p>选择 GitHub PR 作为管理工具，核心原因是<strong>权限控制</strong>和<strong>记录可追溯</strong>。</p>
+<p>有迹可循，权力行使就不会变成一言堂。每一条规则的修改、每一个决策的诞生，都有 PR 记录作为证据。</p>
+<p>至于“管理即代码”这五个字——说实话是临时想出来的。当时只是想借用 Git 的逻辑，而说到 Git 大部分情况下都是代码，所以就随口起了这个名字。现在看来好像跟代码没什么关系，但意思到了就行。</p>
+<hr />
+<h2 id="3">3. 为什么要求维护者懂点技术</h2>
+<p>管理人员不具备技术素养，本身就是一种风险来源。</p>
+<p>茶馆是一个补档社团——我们处理的是视频、弹幕、脚本、数据。这些东西天然就跟技术绑在一起。如果管理者完全不懂技术，就只能依赖少数懂的人，一旦那些人不在，整个组织就会停摆。</p>
+<p>所以我希望维护者们至少能看懂基本的代码逻辑，哪怕只是网页端操作 Git 的程度。不是要求大家都变成程序员，而是希望大家在关键时刻能自己动手，而不是只能等别人来救。</p>
+<hr />
+<h2 id="4">4. 写作过程中的犹豫</h2>
+<p>写这份文档最难的地方，是完全不知道它会不会显得太机械、太难理解、太难执行、太麻烦。</p>
+<p>直到现在我依然保持怀疑。</p>
+<p>但不写，我又觉得这是必须做的事。不是说急需解决，但如果茶馆还想继续往这个方向发展，总得有人把这些东西写下来。不是我，也会是别人，但总得有人先写出来，才能让大家有个方向。</p>
+<p>我不认为我提出的方案就是最好的方案。但至少，这是我目前能探索到的最好的方案。</p>
+<p>还有一件事一直压在我心里：大家来到茶馆，是为了寻找快乐和意义的。我一直在想，这样激进的改革会不会反而把大家的距离拉得更远？一旦开始"管理"，味道似乎就变了。所以我无数次怀疑过自己——这么做真的合适吗？真的只能这么做吗？</p>
+<p>但我还是写了。比起“味道变了”，我更担心的是“茶馆不再是原先那个补档社团了”。</p>
+<hr />
+<h2 id="5">5. 关于编写者</h2>
+<p>这份协议的全部内容由 <strong>Miku_oso</strong> 编写，由 <strong>凍り付いた永遠の都</strong> 审查。</p>
+<p>冻和我一样，也希望通过彻底改制来改变管理层和整个组织的工作方向。不过他似乎今年三月才渐渐意识到这个问题（我也没仔细问过）。冻对写文档不太擅长，所以 Protocol 的内容由我来执笔，由他来把关。</p>
+<p>这个计划一直在”地下”进行，主要是考虑到群里有两位高考生，不想在他们备考期间打扰大家，所以有些先斩后奏了。我知道这样做可能会让人觉得是一言堂——毕竟我平时主要负责写代码，突然跳出来搞治理改革，确实有些奇怪。</p>
+<hr />
+<h2 id="6">6. 期望</h2>
+<p>我希望这份文档未来能进化为被所有人认同的共识，而不仅仅是某个人的想法。</p>
+<p>未来我也希望它不仅仅是给管理员和维护者看的，也能成为新人了解茶馆运作方式的入口。</p>
+<hr />
+<h2 id="7">7. 致谢</h2>
+<h3 id="v100">v1.0.0</h3>
 <ul>
 <li><strong>起草人</strong>：Miku_oso</li>
 <li><strong>审查人</strong>：凍り付いた永遠の都</li>
-<li><strong>发布日期</strong>：2026-05-20</li>
+<li><strong>发布日期</strong>：2026-06-09</li>
 </ul>
 <hr />
-<h2 id="2">2. 演进说明</h2>
-<p>虽然 v1.0.0-alpha.1 凝聚了个人的意志，但从这一刻起，Protocol 已移交给全体维护者共同打理。每一次 PR 的合并、每一条 Issue 的定稿，都将成为这份协议后续版本的一部分。</p>
-<hr />
-<h2 id="3">3. 开源与声明</h2>
+<h2 id="8">8. 开源与声明</h2>
 <ul>
 <li><strong>组织归属</strong>：<a href="https://github.com/TouhouGleaners">TouhouGleaners (拾遗梦茶馆)</a></li>
 <li><strong>精神支撑</strong>：<a href="../ethics/thrd-spirit/">THRD 维护者共识</a></li>
@@ -1222,7 +1399,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2026年5月20日 04:43:28 CST">2026年5月20日 04:43:28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2026年6月9日 23:15:24 CST">2026年6月9日 23:15:24</span>
   </span>
 
     
