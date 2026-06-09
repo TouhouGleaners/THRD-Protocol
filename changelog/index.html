@@ -534,6 +534,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../governance/lifecycle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    生命周期
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2603,9 +2631,17 @@
 </ul>
 <h3 id="changed">Changed</h3>
 <ul>
-<li><strong>重构强制除名机制 (<code>maintainer-role.md</code>)</strong>：将原"两步走"流程简化为统一流程——降权与归档（24h）→ 裁决表决（7d）→ 除名或恢复 → 申诉（7d），并拆分为独立章节。</li>
+<li><strong>重构强制除名机制 (<code>maintainer-role.md</code>)</strong>：将原”两步走”流程简化为统一流程——降权与归档（24h）→ 裁决表决（7d）→ 除名或恢复 → 申诉（7d），并拆分为独立章节。</li>
 <li><strong>权限矩阵简化 (<code>access-control.md</code>)</strong>：状态-权限映射表移除观察期、即时除名等中间状态，合并为统一的除名 (Removal) 状态。</li>
-<li><strong>更新异议部分 (<code>decision-making</code>)</strong>：更新决策治理文档，定义“批准、拒绝和异议”的流程，包括角色分工、时间线以及多数异议覆写规则。</li>
+<li><strong>更新异议部分 (<code>decision-making</code>)</strong>：更新决策治理文档，定义”批准、拒绝和异议”的流程，包括角色分工、时间线以及多数异议覆写规则。</li>
+<li><strong>治理文档结构重组</strong>：<ul>
+<li>新增 <code>governance/lifecycle.md</code>：将退出、休眠、除名从 <code>maintainer-role.md</code> 和 <code>access-control.md</code> 中移出，合并为独立的维护者生命周期文档。</li>
+<li><code>maintainer-role.md</code>：仅保留角色定义与晋升机制（1-5 节）。</li>
+<li><code>access-control.md</code>：移除休眠保护机制章节，仅保留权限分配与授权矩阵。</li>
+<li><code>decision-making.md</code>：移除”为什么必须走 PR 流程”章节，仅保留操作流程。</li>
+<li><code>index.md</code> 与 <code>mkdocs.yml</code>：新增生命周期导航条目。</li>
+</ul>
+</li>
 </ul>
 <h2 id="100-alpha1-2026-05-20-utc8">[1.0.0-alpha.1] - 2026-05-20 (UTC+8)</h2>
 <h3 id="added_1">Added</h3>
@@ -2835,7 +2871,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2026年6月8日 23:54:21 CST">2026年6月8日 23:54:21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2026年6月9日 20:37:11 CST">2026年6月9日 20:37:11</span>
   </span>
 
     
