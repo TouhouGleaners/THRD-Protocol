@@ -5,13 +5,14 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
-## [Unreleased] - 2026-06-09 (UTC+8)
+## [1.0.0-beta.1] - 2026-06-09 (UTC+8)
 
 ### Added
 - 新增 `docs/assets/` 目录：存放全局静态资源。
 - 新增 `governance/lifecycle.md`：维护者生命周期文档，涵盖退出、休眠与除名机制。
 
 ### Changed
+- **重写关于页面 (`about.md`)**：补充协议起因、编写过程与期望。
 - **治理文档结构重组**：将原本混杂在各文档中的内容按主题拆分为独立文档，每篇文档聚焦单一主题。
     - `maintainer-role.md`：仅保留角色定义与晋升机制，退出/除名移至 `lifecycle.md`。
     - `access-control.md`：移除休眠保护机制，仅保留权限分配与授权矩阵。
