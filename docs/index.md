@@ -20,16 +20,16 @@
 
 <div class="grid cards" markdown>
 
--   :material-scale-balance:{ .lg .middle } __治理逻辑__
+-   :material-scale-balance:{ .lg .middle } __成员分类__
 
     ---
 
-    了解组织架构、决策规则与权限分配。
+    了解角色定义、权限分配与成员准入。
     
     - [维护者角色定义](./governance/maintainer-role.md)
-    - [决策流与提案管理](./governance/decision-making.md)
     - [权限矩阵](./governance/access-control.md)
     - [维护者生命周期](./governance/lifecycle.md)
+    - [维护者入馆指南](./action-guide/onboarding.md)
 
 -   :material-hammer-wrench:{ .lg .middle } __行动指南__
 
@@ -37,8 +37,9 @@
 
     手把手教你如何正确地参与协作。
 
-    - [维护者入馆指南](./action-guide/onboarding.md)
     - [标准协作工作流](./action-guide/dev-workflow.md)
+    - [决策流与提案管理](./governance/decision-making.md)
+    - [异步沟通规范](./skills/communication.md)
     - [GitHub 标签指南](./action-guide/labels.md)
 
 -   :material-book-open-variant:{ .lg .middle } __技能大纲__
@@ -49,7 +50,6 @@
 
     - [技术要求大纲](./skills/tech-stack.md)
     - [工业级文档标准](./skills/docs-standard.md)
-    - [异步沟通规范](./skills/communication.md)
 
 -   :material-tea:{ .lg .middle } __精神与伦理__
 
