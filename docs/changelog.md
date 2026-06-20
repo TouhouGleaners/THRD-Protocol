@@ -81,7 +81,7 @@
 ### Added
 - 新增 `docs/action-guide/dev-workflow.md`: 建立完整的开发与维护工作流规范。
 
-### Changes
+### Changed
 - **重构决策流裁决机制 (`decision-making.md`)**：
     - 确立“审计权与裁决规范”：明确核心维护者在执行合并时的质量审计职能。
     - 在 `dev-workflow` 与 `decision-making` 中互引，明确区分组织级决策与日常维护任务。
