@@ -12,29 +12,31 @@ Teahouse of Recollected Dreams 管理改革大纲与行动指南。
 THRD-Protocol/
 ├── .gitignore              # 忽略本地编译产物与虚拟环境
 ├── README.md               # 仓库引导手册（本文件）
-├── mkdocs.yml              # MkDocs 核心配置文件（含提示框与图标扩展）
-├── pyproject.toml          # 现代化项目元数据与依赖配置
+├── mkdocs.yml              # MkDocs 核心配置文件
+├── pyproject.toml          # 项目元数据与依赖配置
 └── docs/                   # 文档源码目录（MkDocs 扫描目录）
-    ├── action-guide/       # 【行动指南 SOP】
-    │   ├── dev-workflow.md     # 开发工作流：从 Issue 到 PR 的协作动作规范
-    │   ├── labels.md           # 标签系统：任务流转与状态控制的标准化语言
-    │   └── onboarding.md       # 入馆指南：维护者网页端 PR 准入实操挑战
-    ├── assets/             # 静态资源目录（Logo、架构图等）
-    ├── ethics/             # 【伦理与边界】
-    │   ├── data-privacy.md     # 数据隐私：归档数据的处理底线与内容净化标准
-    │   └── thrd-spirit.md      # 茶馆精神：对抗数字遗忘的维护者共识公约
-    ├── governance/         # 【治理逻辑】
-    │   ├── access-control.md   # 权限矩阵：技能挂钩的资源分配与授权标准
-    │   ├── decision-making.md  # 决策流程：Issue-PR 异步决策与裁决规范
+    ├── getting-started/    # 【入门】
+    │   └── onboarding.md       # 入馆指南：维护者 PR 准入实操
+    ├── governance/         # 【成员分类】
+    │   ├── access-control.md   # 权限矩阵：技能挂钩的资源分配标准
     │   ├── lifecycle.md        # 维护者生命周期：退出、休眠与除名机制
-    │   └── maintainer-role.md  # 角色定义：运营/技术/核心三轨维护者架构
+    │   └── maintainer-role.md  # 角色定义：运营/技术/核心三轨架构
+    ├── action-guide/       # 【行动指南】
+    │   ├── communication.md    # 沟通规范：GitHub 与即时通讯的流转红线
+    │   ├── decision-making.md  # 决策流程：Issue-PR 异步决策与裁决规范
+    │   ├── dev-workflow.md     # 开发工作流：从 Issue 到 PR 的协作规范
+    │   └── labels.md           # 标签系统：任务流转与状态控制的标准化语言
     ├── skills/             # 【技能大纲】
-    │   ├── communication.md    # 沟通规范：GitHub 与即时通讯工具的流转红线
     │   ├── docs-standard.md    # 文档标准：去富文本化的 Markdown 排版礼仪
-    │   └── tech-stack.md       # 技术要求：Python/Vue 3 二选一最小准入标准
-    ├── about.md            # 关于协议：历史致谢与起草说明
-    ├── changelog.md        # 变更记录（北京时间 CST）
-    └── index.md            # 首页：管理改革提案（白皮书）与全景导航
+    │   └── tech-stack.md       # 技术要求：Python/Vue 3 二选一准入标准
+    ├── ethics/             # 【伦理与边界】
+    │   ├── data-privacy.md     # 数据隐私：归档数据的处理底线与净化标准
+    │   └── thrd-spirit.md      # 茶馆精神：对抗数字遗忘的维护者共识公约
+    ├── assets/             # 静态资源目录（Logo、架构图等）
+    ├── about.md            # 关于协议：历史致谢与版本记录
+    ├── changelog.md        # 变更记录
+    ├── index.md            # 首页：欢迎页与导航
+    └── proposal.md         # 改革白皮书
 ```
 
 ---
