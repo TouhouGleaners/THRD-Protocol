@@ -19,3 +19,50 @@
 ## 完成入馆
 
 如果你还没有完成入馆流程，请阅读[入馆指南](./getting-started/onboarding.md)，它会带你完成第一个 PR。
+
+---
+
+## 导航
+
+<div class="grid cards" markdown>
+
+-   :material-scale-balance:{ .lg .middle } __成员分类__
+
+    ---
+
+    角色定义、权限分配与生命周期。
+
+    - [维护者角色定义](./governance/maintainer-role.md)
+    - [权限矩阵](./governance/access-control.md)
+    - [维护者生命周期](./governance/lifecycle.md)
+
+-   :material-hammer-wrench:{ .lg .middle } __行动指南__
+
+    ---
+
+    协作流程与决策机制。
+
+    - [标准协作工作流](./action-guide/dev-workflow.md)
+    - [决策流程](./action-guide/decision-making.md)
+    - [沟通规范](./action-guide/communication.md)
+    - [标签系统](./action-guide/labels.md)
+
+-   :material-book-open-variant:{ .lg .middle } __技能大纲__
+
+    ---
+
+    技术要求与文档标准。
+
+    - [技术栈](./skills/tech-stack.md)
+    - [文档标准](./skills/docs-standard.md)
+
+-   :material-tea:{ .lg .middle } __精神与伦理__
+
+    ---
+
+    价值观与数据归档底线。
+
+    - [THRD 精神](./ethics/thrd-spirit.md)
+    - [数据隐私](./ethics/data-privacy.md)
+
+</div>
