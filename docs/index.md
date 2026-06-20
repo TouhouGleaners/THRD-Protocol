@@ -26,6 +26,7 @@
 
     新成员从这里开始。
 
+    - [欢迎来到茶馆](./governance/welcome.md)
     - [维护者入馆指南](./governance/onboarding.md)
 
 -   :material-scale-balance:{ .lg .middle } __成员分类__
