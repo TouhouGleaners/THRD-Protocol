@@ -43,10 +43,10 @@ plugins:
       locale: zh               # 日期格式本地化为中文
 
 nav:
-  - 愿景: proposal.md
   - 入门:
     - 欢迎来到茶馆: index.md
     - 入馆指南: getting-started/onboarding.md
+  - 愿景: proposal.md
   - 成员分类:
     - 角色定义: governance/maintainer-role.md
     - 权限管理: governance/access-control.md
