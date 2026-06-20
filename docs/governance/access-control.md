@@ -17,7 +17,7 @@
 ### **运营维护权限 (Operational Access)**
 *针对侧重内容审核、社群治理与宣发的维护者。*
 
-- **GitHub 资产**：对 `THRD-Protocol` 及各业务仓库拥有 **Issue 管理权** 与 **PR 提交（提议）权**。
+- **GitHub 资产**：对 `THRD-Protocol` 及各业务仓库拥有 **Issue 管理权**、**PR 提交（提议）权** 与 **PR Review 权**。
 - **发布资产**：官网 (WordPress) 后台编辑权限、官号管理协作权。
 - **准入红线**：必须通过 [入馆 PR 挑战](./onboarding.md)。
 

@@ -20,16 +20,24 @@
 
 <div class="grid cards" markdown>
 
+-   :material-rocket-launch:{ .lg .middle } __入门__
+
+    ---
+
+    新成员从这里开始。
+
+    - [欢迎来到茶馆](./governance/welcome.md)
+    - [维护者入馆指南](./governance/onboarding.md)
+
 -   :material-scale-balance:{ .lg .middle } __成员分类__
 
     ---
 
-    了解角色定义、权限分配与成员准入。
+    了解角色定义、权限分配与生命周期。
     
     - [维护者角色定义](./governance/maintainer-role.md)
     - [权限矩阵](./governance/access-control.md)
     - [维护者生命周期](./governance/lifecycle.md)
-    - [维护者入馆指南](./governance/onboarding.md)
 
 -   :material-hammer-wrench:{ .lg .middle } __行动指南__
 
