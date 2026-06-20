@@ -8,12 +8,12 @@
 
 ## 从哪里开始
 
-作为茶馆的维护者，你需要了解以下内容。不需要一次性读完，先从你最感兴趣的部分开始：
+作为茶馆的维护者，你需要了解以下内容。推荐按顺序阅读：
 
-- **我是什么角色？** → 阅读[角色定义](./maintainer-role.md)
-- **茶馆怎么做出决策？** → 阅读[决策流程](../action-guide/decision-making.md)
-- **我需要会什么技术？** → 阅读[技术大纲](../skills/tech-stack.md)
-- **茶馆的价值观是什么？** → 阅读[THRD 精神](../ethics/thrd-spirit.md)
+- **[角色定义](./maintainer-role.md)**（必读）——了解三类维护者的职责与边界。
+- **[决策流程](../action-guide/decision-making.md)**（必读）——了解茶馆如何通过 PR 做出决策。
+- **[技术大纲](../skills/tech-stack.md)**（推荐）——了解各职能路径的技术要求。
+- **[THRD 精神](../ethics/thrd-spirit.md)**（推荐）——了解茶馆的价值观与行事准则。
 
 ## 完成入馆
 

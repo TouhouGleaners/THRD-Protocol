@@ -46,7 +46,7 @@ nav:
   - 愿景: index.md
   - 入门:
     - 欢迎: governance/welcome.md
-    - 成员准入: governance/onboarding.md
+    - 入馆指南: governance/onboarding.md
   - 成员分类:
     - 角色定义: governance/maintainer-role.md
     - 权限管理: governance/access-control.md
