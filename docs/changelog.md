@@ -5,23 +5,19 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)  
 本项目遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
-## [Unreleased]
-
-### Added
-- 新增"入门"板块：`getting-started/welcome.md` 与 `getting-started/onboarding.md`，从 `governance/` 目录迁出并独立。
-
-### Fixed
-- 修正决策流程文档中指向权限矩阵的相对路径。
-- 修正权限矩阵中引号样式（前引号误用为后引号）。
-- 修正白皮书排版（盘古空格、引号）。
+## [1.0.0-beta.2] - 2026-06-21 (UTC+8)
 
 ### Changed
-- **导航重组**：将"治理逻辑"改名为"成员分类"，新增"入门"板块，决策流程与沟通规范移入"行动指南"。
-- `index.md` 与 `welcome.md` 角色互换：`index.md` 作为首页入口，提案白皮书独立为 `proposal.md`。
-- 首页"快速入口"精简为 3 项，与导航卡片不再重叠。
-- 补充运营权限中的 PR Review 权限说明。
-- 技能大纲补充"全栈最低标准"。
-- 术语首次出现时附加解释（RFC、Squash and Merge）。
+- **导航重组**：新增"入门"板块，`onboarding.md` 迁出治理目录；板块重命名为"成员分类"，决策流程与沟通规范移入"行动指南"。
+- 首页（`index.md`）重写为欢迎页，包含推荐导航与板块卡片。
+- 改革白皮书独立为 `proposal.md`。
+- 运营维护者补充 PR Review 权限。
+- 技能大纲补充技术路线说明。
+- 术语首次出现时附加解释。
+
+### Fixed
+- 修正多处引号样式与相对路径。
+- 修正白皮书盘古排版。
 
 ## [1.0.0-beta.1] - 2026-06-09 (UTC+8)
 
