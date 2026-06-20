@@ -38,7 +38,7 @@
     手把手教你如何正确地参与协作。
 
     - [标准协作工作流](./action-guide/dev-workflow.md)
-    - [决策流与提案管理](./governance/decision-making.md)
+    - [决策流与提案管理](./action-guide/decision-making.md)
     - [异步沟通规范](./skills/communication.md)
     - [GitHub 标签指南](./action-guide/labels.md)
 
