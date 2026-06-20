@@ -43,9 +43,8 @@ plugins:
       locale: zh               # 日期格式本地化为中文
 
 nav:
-  - 愿景: index.md
+  - 愿景: proposal.md
   - 入门:
-    - 欢迎: getting-started/welcome.md
     - 入馆指南: getting-started/onboarding.md
   - 成员分类:
     - 角色定义: governance/maintainer-role.md
