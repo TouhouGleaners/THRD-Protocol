@@ -24,7 +24,7 @@
 ### **技术维护权限 (Technical Access)**
 *针对侧重工具开发、数据抓取与环境维护的维护者。*
 
-- **GitHub 资产**：在”运营权限”基础上，额外获得对应业务仓库（如 TMA, Danmaku Sender）的写权限与非核心代码合并权。
+- **GitHub 资产**：在“运营权限”基础上，额外获得对应业务仓库（如 TMA, Danmaku Sender）的写权限与非核心代码合并权。
 - **技术资源**：业务相关的 API Tokens 访问权、部署逻辑的审核权。
 - **准入红线**：需达到 Python 或 Vue 3 的 [最小准入标准](../skills/tech-stack.md)。
 
